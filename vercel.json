@@ -5,10 +5,10 @@
     }
   },
   "routes": [
-    {
-      "src": "/(.*)",
-      "status": 200,
-      "dest": "index.html"
-    }
+  {
+  "src": "/(.*)",
+  "status": 200,
+  "dest": "/dist/index.html"
+}
   ]
 }
