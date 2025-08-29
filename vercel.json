@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "DISABLE_VITE_BUILD": "1"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 200,
+      "dest": "index.html"
+    }
+  ]
+}
